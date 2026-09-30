@@ -1,8 +1,8 @@
 {
-  "name": "cordova-plugin-purchases",
+  "name": "@revenuedot/cordova-plugin-purchases",
   "type": "commonjs",
   "version": "8.2.3",
-  "description": "Purchases Cordova Plugin",
+  "description": "Purchases Cordova Plugin (Fork of RevenueCat's MIT SDK, maintained by RevenueDot, not affiliated with RevenueCat.)",
   "types": "./www/plugin.d.ts",
   "cordova": {
     "id": "cordova-plugin-purchases",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/revenuecat/cordova-plugin-purchases"
+    "url": "git+https://github.com/revenuedot/cordova-plugin-purchases.git"
   },
   "keywords": [
     "cordova",
@@ -31,7 +31,7 @@
     "test:android": "cordova-paramedic --verbose --platform android@11 --plugin . --args=\"-- --gradleArg=-PcdvMinSdkVersion=23\"",
     "test:ios": "cordova-paramedic --verbose --platform ios --plugin . --target \"iPhone-15\""
   },
-  "author": "RevenueCat, Inc.",
+  "author": "RevenueDot (https://revenuedot.app)",
   "license": "MIT",
   "dependencies": {
     "cordova-annotated-plugin-android": "^1.0.4"

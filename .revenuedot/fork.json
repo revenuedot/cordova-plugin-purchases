@@ -1,0 +1,15 @@
+{
+  "note": "Fork of RevenueCat's MIT SDK, maintained by RevenueDot, not affiliated with RevenueCat.",
+  "pipeline": "https://github.com/revenuedot/revenuedot/tree/main/scripts/forks",
+  "rules": "scripts/forks/rules/cordova-plugin-purchases.json",
+  "rulesSha256": "2d1699bef35b660e2ea634e3643da0cb91ff7dd2145f154d7c5380861ba5662f",
+  "upstream": {
+    "repo": "https://github.com/RevenueCat/cordova-plugin-purchases",
+    "mergeBase": "38b5ae3a7742d851a21006fd47bd88ff6303f8b0"
+  },
+  "apiHost": "https://api.revenuedot.app",
+  "signingPublicKey": "gXdn2hmqR/TbdtQwK02laE0YgFz0Rtf918LICLrgZhg=",
+  "publishes": [
+    "npm @revenuedot/cordova-plugin-purchases (Cordova plugin id and the window.Purchases global unchanged)"
+  ]
+}
