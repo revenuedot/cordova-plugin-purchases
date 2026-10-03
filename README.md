@@ -36,6 +36,14 @@ The fork already trusts RevenueDot's signing key, so no signature or verificatio
 - **Experiments, targeting and the Customer Center** run from the RevenueDot dashboard on the offerings this plugin fetches ([guides](https://revenuedot.app/docs/guides)).
 - **A one-line migration:** point the stock plugin at RevenueDot with `setProxyURL`, or install this fork and drop the line ([migration guide](https://revenuedot.app/docs/migrate)).
 
+## Use with your coding agent
+
+Coding agents can read this repository's docs and code on demand, so they use the right package and imports:
+
+- **Context7:** https://context7.com/revenuedot/cordova-plugin-purchases
+- **DeepWiki:** https://deepwiki.com/revenuedot/cordova-plugin-purchases
+- **GitMCP:** https://gitmcp.io/revenuedot/cordova-plugin-purchases
+
 ## Links
 
 - **Docs for this SDK:** https://revenuedot.app/docs/sdks/cordova

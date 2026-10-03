@@ -2,7 +2,7 @@
   "note": "Fork of RevenueCat's MIT SDK, maintained by RevenueDot, not affiliated with RevenueCat.",
   "pipeline": "https://github.com/revenuedot/revenuedot/tree/main/scripts/forks",
   "rules": "scripts/forks/rules/cordova-plugin-purchases.json",
-  "rulesSha256": "1d38740898d20eb2c9765b8b2a889232c396a5e550d98cfd51b48e71c130fa14",
+  "rulesSha256": "e4b8cd26d1c8d66cc1dfe62020f8b9d8175fc2ffec93f8cc9640a1381de1a728",
   "upstream": {
     "repo": "https://github.com/RevenueCat/cordova-plugin-purchases",
     "mergeBase": "d0cfbc50e4e8a04c549f0d17b3a24cd983234b07"

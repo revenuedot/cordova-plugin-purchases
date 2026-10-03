@@ -1,0 +1,27 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "RevenueDot Cordova SDK",
+  "description": "RevenueDot's MIT fork of RevenueCat's Cordova plugin, pointed at RevenueDot, the open-source RevenueCat alternative for in-app purchases and subscriptions.",
+  "folders": [],
+  "excludeFolders": [
+    ".circleci",
+    ".github",
+    "fastlane",
+    ".revenuedot",
+    "scripts",
+    "apiTester",
+    "e2e-tests",
+    "examples",
+    "tests"
+  ],
+  "excludeFiles": [
+    "CHANGELOG.md",
+    "CHANGELOG.latest.md",
+    "CHANGELOG-LATEST.md"
+  ],
+  "rules": [
+    "Install with `cordova plugin add @revenuedot/cordova-plugin-purchases@<version>`. The plugin id stays cordova-plugin-purchases and the global stays `Purchases`.",
+    "Call `Purchases.configureWith` after the `deviceready` event, with the app's public key from the RevenueDot dashboard: appl_ for iOS and goog_ for Android.",
+    "RevenueDot Cloud (https://api.revenuedot.app) is the default API host. For a self-hosted server, call `Purchases.setProxyURL(\"https://revenuedot.example.com\")` before `configureWith`."
+  ]
+}
